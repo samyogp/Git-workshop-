@@ -1,1 +1,32 @@
+method 1 clone a Github repo into vs code
+install prerequisites
+vs code installed
+git installed check with
+git --version
+2. sign in to github from vs code
+open vs code
+press ctrl + shift +p
+type Github : sign in
+3. clone the repo
+press ctrl + shift + p
+select Git: clone
+paste your Github repo URL
+https://github.com/username/repository-name.git
+choose a local folder 
+click open
+your repo is now connected
+
+Method "2"
+1open the project in vs code
+2 initialize Git
+git init
+3 connect to github repo
+git remote add origin https://github.com/username/repository-name.git
+4 push your code
+git branch -m main
+git add .
+git commit -m "initial commit"
+git push -u origin main
+
+
 
