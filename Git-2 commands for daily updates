@@ -1,1 +1,27 @@
+1) check current status (see changes)
+git status
+2)
+stage changes (prepare files for commit)
+*stage all files
+git add .
+*or stage single file
+git add <filename>
+3) commit changes with message
+git commit -m "your commit message here"
+4)push changes to github
+git push
+5)pull changes from github (if someone else updated repo)
+git pull origin main
+6) check current branch
+git branch
+7) rename branch to main (only once if needed)
+git branch -m main
+8) git remote add origin <your-repo-URL>
+
+# Daily workfollow summary:
+git status
+git add .
+git commit -m "day xx: <topics>"
+git push
+
 
