@@ -23,5 +23,7 @@ git status
 git add .
 git commit -m "day xx: <topics>"
 git push
+some cases your file doesent push to your github repo then you can do 
+git push --force
 
 
