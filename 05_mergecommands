@@ -1,1 +1,29 @@
+Defination of Merge :
+Merge means combining changes from one branch or file into another so they become one updated version.
+
+
+# merge commands are follows :-
+git status 
+=> Shows which files have been changed and whether they are staged or not.
+git branch 
+=> it shows the present branch or others branch
+git checkout main 
+=> switched to main branch
+git pull origin main 
+=> it helps to retrive latest code from github and updating the local main
+git merge feature-branch
+=> this commands helps to merge feature-branch code into main and merge them
+git push origin main 
+=> it upload merge code into github repo
+
+conflict solve:
+git add .
+=> it checkes the conflict fix file stage 
+git commit 
+=> complete merge and save
+
+#conflict :-
+Conflict happens when Git cannot automatically merge changes because the same part of a file was changed
+in different ways in two branches.
+
 
