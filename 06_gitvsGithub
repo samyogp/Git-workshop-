@@ -1,1 +1,82 @@
+Git vs GitHub — Notes 📘
+What is Git?
 
+Git is a version control system used to:
+
+Track changes in source code
+
+Save code history
+
+Work on projects locally (offline)
+
+Git runs on your local machine
+
+Common Git Commands
+git init        # initialize repository
+git status      # check file status
+git add .       # add files to staging
+git commit -m "message"   # save changes
+
+What is GitHub?
+
+GitHub is an online platform used to:
+
+Store Git repositories in the cloud
+
+Share code with others
+
+Collaborate with teams
+
+Backup projects
+
+ GitHub works online
+
+Key Difference Between Git and GitHub
+Git	GitHub
+Tool / Software	Website / Platform
+Works locally	Works online
+Tracks code changes	Hosts Git repositories
+No internet required	Internet required
+Created by Linus Torvalds	Owned by Microsoft
+Real-Life Example 
+
+Git → Like saving multiple versions of a file on your laptop
+
+GitHub → Like uploading that file to Google Drive and sharing it
+
+Basic Git + GitHub Workflow
+
+Create a project locally
+
+git init
+git add .
+git commit -m "Initial commit"
+
+
+Push project to GitHub
+
+git remote add origin <repo-url>
+git push -u origin main
+
+When to Use What?
+
+Use Git to:
+
+Track changes
+
+Manage versions
+
+Work offline
+
+Use GitHub to:
+
+Share projects
+
+Collaborate with others
+
+Store code online
+
+Short Summary 
+
+Git = Version control tool
+GitHub = Online platform for Git repositories
