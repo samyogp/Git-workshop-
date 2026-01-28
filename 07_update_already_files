@@ -1,1 +1,9 @@
-
+first go to terminal or go to git bash 
+git init
+git add foldername/filename (in java like git add day05/multiplicationtable.java)
+git add .
+git commit -m "your commit message here"
+git push 
+=> if some condition you can heared errors then you can do 
+git push --force
+completed 
