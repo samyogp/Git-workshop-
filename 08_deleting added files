@@ -1,0 +1,16 @@
+process of deleteing already added files in github using git commands:
+
+for linux and mac :-
+rm filename
+git add -A
+git commit -m "delete unnecessary files"
+git push origin main
+
+
+
+for windows :-
+del filename
+git add -A
+git commit -m "delete unnecessary files"
+git push origin main 
+(if your banch is in master then you can do) git push origin master
