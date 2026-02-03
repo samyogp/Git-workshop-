@@ -1,1 +1,17 @@
+:>
+sometimes you dont like your own repo name and change it but then you're already added files and folders in in repo so hou you can
+update the repo name in old ternimal (repo ko name change gariyo github ma then vs code ko terminal mata change gareko name aaudaina purano name nai hunxa 
+tellai hamile chai git commands used garera update garna sakinxa)
+
+so the commands are as follows:
+(1)check current remote :>
+git remote -v
+youwill see old URl like for eg :https://github.com/username/oldfileurl.git
+(2) Update Remote URL to new Repo
+git remote set-url origin https://github.com/username/filename.git (update in filename to your new URL of the repo)
+(3) confirm 
+git remote -v
+(4) git push -u origin main / master
+
+
 
